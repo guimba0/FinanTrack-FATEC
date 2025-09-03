@@ -1,4 +1,4 @@
-💰 Sistema de Controle Financeiro Pessoal
+💰 FinanTrack
 
 Este projeto é um aplicativo web desenvolvido em Java (JSP + Servlets) para auxiliar no gerenciamento financeiro pessoal, permitindo o controle de entradas, saídas, metas e assinaturas recorrentes.
 
