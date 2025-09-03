@@ -1,20 +1,9 @@
 💰 FinanTrack
 
-Este projeto é um aplicativo web desenvolvido em Java (JSP + Servlets) para auxiliar no gerenciamento financeiro pessoal, permitindo o controle de entradas, saídas, metas e assinaturas recorrentes.
+Este projeto é um aplicativo web desenvolvido para auxiliar no gerenciamento financeiro pessoal, permitindo o controle de entradas, saídas, metas e assinaturas recorrentes.
 
 O objetivo é criar uma ferramenta simples e intuitiva para ajudar pessoas a organizarem suas finanças, com relatórios e gráficos para análise dos gastos.
 
-🚀 Tecnologias utilizadas
-
-Java EE (JSP + Servlets)
-
-Bootstrap 5 (para interface responsiva)
-
-JDBC (MySQL) para persistência de dados
-
-Chart.js / Google Charts (gráficos dinâmicos)
-
-HTML, CSS, JavaScript
 
 📌 Funcionalidades previstas
 🔹 1. Autenticação de Usuário
@@ -56,3 +45,17 @@ Avisos de vencimento próximo
 Gastos por semana, mês e ano
 
 Comparativo entre meses com gráficos
+
+
+
+🚀 Tecnologias utilizadas
+
+Java EE (JSP + Servlets)
+
+Bootstrap 5 (para interface responsiva)
+
+JDBC (MySQL) para persistência de dados
+
+Chart.js / Google Charts (gráficos dinâmicos)
+
+HTML, CSS, JavaScript
