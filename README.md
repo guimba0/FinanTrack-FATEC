@@ -6,6 +6,7 @@ O objetivo é criar uma ferramenta simples e intuitiva para ajudar pessoas a org
 
 
 📌 Funcionalidades previstas
+
 🔹 1. Autenticação de Usuário
 
 Cadastro e login de usuários
