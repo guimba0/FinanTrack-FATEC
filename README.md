@@ -55,8 +55,6 @@ Java EE (JSP + Servlets)
 
 Bootstrap 5 (para interface responsiva)
 
-JDBC (MySQL) para persistência de dados
-
-Chart.js / Google Charts (gráficos dinâmicos)
+SQLite (Banco de Dados)
 
 HTML, CSS, JavaScript
