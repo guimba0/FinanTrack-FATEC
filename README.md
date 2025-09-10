@@ -58,3 +58,5 @@ Bootstrap 5 (para interface responsiva)
 SQLite (Banco de Dados)
 
 HTML, CSS, JavaScript
+
+[Documentação](https://docs.google.com/document/d/1BHJ1PtrndcojcnKtepJ2ATaL_eETV61WYLOpMt_g7jI/edit?tab=t.0)
