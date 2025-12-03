@@ -1,16 +1,16 @@
-# FinanTrack - FATEC
+# FinanTrack - FatecPG
 
 Sistema de controle financeiro pessoal e compartilhado desenvolvido como projeto acadêmico. O objetivo é permitir que usuários gerenciem seus ganhos, gastos e organizem finanças em conjunto (família, repúblicas, viagens).
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
-### 👤 Módulo Pessoal
+### Módulo Pessoal
 * **Gestão de Lançamentos:** Registro de receitas e despesas com categorização.
 * **Contas Recorrentes:** Cadastro de contas fixas (aluguel, internet) com data de vencimento.
 * **Dashboard:** Visão geral do saldo atual e movimentações do mês.
 * **Segurança:** Login e cadastro de usuários com proteção de dados básicos.
 
-### 👥 Módulo de Finanças Compartilhadas (Planilha em Grupo)
+### Módulo de Finanças Compartilhadas (Planilha em Grupo)
 *Funcionalidade exclusiva para gestão coletiva de despesas.*
 
 * **Criação de Grupos:** Usuários podem criar grupos ilimitados (ex: "Casa de Praia", "Despesas do Apê") e tornam-se administradores.
@@ -24,7 +24,7 @@ Sistema de controle financeiro pessoal e compartilhado desenvolvido como projeto
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Java (JDK 17+)**
 * **JSP (JavaServer Pages)** para interface web.
@@ -35,7 +35,7 @@ Sistema de controle financeiro pessoal e compartilhado desenvolvido como projeto
 
 ---
 
-## ⚙️ Configuração e Instalação
+## Configuração e Instalação
 
 1.  **Banco de Dados:**
     * O sistema utiliza SQLite. Ao iniciar a aplicação, ele tenta criar o arquivo `finantrack.db` automaticamente na pasta do projeto ou na pasta do usuário (`user.home`).
@@ -48,7 +48,7 @@ Sistema de controle financeiro pessoal e compartilhado desenvolvido como projeto
 
 ---
 
-## 📝 Estrutura do Banco de Dados (Grupos)
+## Estrutura do Banco de Dados (Grupos)
 
 Para entendimento da lógica de grupos:
 * **`grupos`**: Armazena o nome e o `admin_id` (quem criou).
@@ -57,7 +57,7 @@ Para entendimento da lógica de grupos:
 
 ---
 
-## 📌 Status do Projeto
+## Status do Projeto
 * [x] Cadastro e Login
 * [x] CRUD de Transações Pessoais
 * [x] Gestão de Grupos e Convites
