@@ -64,3 +64,5 @@ Para entendimento da lógica de grupos:
 * [x] Lançamento de Despesas em Grupo
 * [ ] Relatórios Avançados (Xls)
 * [ ] Notificações por E-mail
+
+[Documentação](https://docs.google.com/document/d/1BHJ1PtrndcojcnKtepJ2ATaL_eETV61WYLOpMt_g7jI/edit?tab=t.0)
