@@ -1,68 +1,62 @@
-FinanTrack - FATEC
+💰 FinanTrack
 
-Sistema de controle financeiro pessoal e compartilhado desenvolvido como projeto acadêmico. O objetivo é permitir que usuários gerenciem seus ganhos, gastos e organizem finanças em conjunto (família, repúblicas, viagens).
+Este projeto é um aplicativo web desenvolvido para auxiliar no gerenciamento financeiro pessoal, permitindo o controle de entradas, saídas, metas e assinaturas recorrentes.
 
-🚀 Funcionalidades Principais
+O objetivo é criar uma ferramenta simples e intuitiva para ajudar pessoas a organizarem suas finanças, com relatórios e gráficos para análise dos gastos.
 
-👤 Módulo Pessoal
-* **Gestão de Lançamentos:** Registro de receitas e despesas com categorização.
-* **Contas Recorrentes:** Cadastro de contas fixas (aluguel, internet) com data de vencimento.
-* **Dashboard:** Visão geral do saldo atual e movimentações do mês.
-* **Segurança:** Login e cadastro de usuários com proteção de dados básicos.
 
-👥 Módulo de Finanças Compartilhadas (Planilha em Grupo)
-*Funcionalidade exclusiva para gestão coletiva de despesas.*
+📌 Funcionalidades previstas
 
-* **Criação de Grupos:** Usuários podem criar grupos ilimitados (ex: "Casa de Praia", "Despesas do Apê") e tornam-se administradores.
-* **Convite de Membros:** O administrador pode convidar outros usuários cadastrados para integrar o grupo.
-* **Planilha de Transações:**
-    * Todos os membros visualizam uma lista comum de despesas (a "Planilha").
-    * Registro de despesas compartilhadas (ex: "Conta de Luz", "Mercado da semana").
-    * **Definição de Pagante:** É possível indicar qual membro do grupo pagou a conta.
-    * **Status de Pagamento:** Controle visual se a despesa está "Pendente" ou "Paga".
-* **Transparência:** O saldo e as dívidas ficam visíveis para todos os participantes do grupo.
+🔹 1. Autenticação de Usuário
 
----
+Cadastro e login de usuários
 
-🛠️ Tecnologias Utilizadas
+Sessão para manter usuário logado
 
-* **Java (JDK 17+)**
-* **JSP (JavaServer Pages)** para interface web.
-* **Servlet API** para controle de requisições.
-* **SQLite** como banco de dados (arquivo `finantrack.db` portátil).
-* **Bootstrap 5** para estilização responsiva.
-* **JSTL** para lógica nas páginas JSP.
+🔹 2. Cadastro de Transações
 
----
+Entradas (salário, extras)
 
-⚙️ Configuração e Instalação
+Saídas (contas fixas, lazer, alimentação, etc.)
 
-1.  **Banco de Dados:**
-    * O sistema utiliza SQLite. Ao iniciar a aplicação, ele tenta criar o arquivo `finantrack.db` automaticamente na pasta do projeto ou na pasta do usuário (`user.home`).
-    * As tabelas são geradas automaticamente caso não existam (verificar logs do console na primeira execução).
+Categorias personalizadas
 
-2.  **Execução:**
-    * Importe o projeto em sua IDE (NetBeans/Eclipse/IntelliJ).
-    * Execute em um servidor **Tomcat** ou **GlassFish**.
-    * Acesse via navegador: `http://localhost:8080/FinanTrack-FATEC`
+🔹 3. Visão Geral
 
----
+Exibir saldo atual
 
-📝 Estrutura do Banco de Dados (Grupos)
+Total de entradas e saídas no mês
 
-Para entendimento da lógica de grupos:
-* **`grupos`**: Armazena o nome e o `admin_id` (quem criou).
-* **`grupo_membros`**: Relaciona usuários aos grupos com status (PENDENTE/ACEITO).
-* **`transacoes_grupo`**: A tabela central da "Planilha". Difere das transações pessoais pois possui campos para `data_vencimento` e `usuario_pagante_id`.
+Gráfico de pizza por categoria
 
----
+🔹 4. Metas Financeiras
 
-📌 Status do Projeto
-* [x] Cadastro e Login
-* [x] CRUD de Transações Pessoais
-* [x] Gestão de Grupos e Convites
-* [x] Lançamento de Despesas em Grupo
-* [ ] Relatórios Avançados (Xls)
-* [ ] Notificações por E-mail
+Definição de objetivos (ex: guardar R$500 no mês)
+
+Barra de progresso para acompanhamento
+
+🔹 5. Controle de Dívidas e Assinaturas
+
+Lista de contas fixas (Netflix, aluguel, etc.)
+
+Avisos de vencimento próximo
+
+🔹 6. Relatórios
+
+Gastos por semana, mês e ano
+
+Comparativo entre meses com gráficos
+
+
+
+🚀 Tecnologias utilizadas
+
+Java EE (JSP + Servlets)
+
+Bootstrap 5 (para interface responsiva)
+
+SQLite (Banco de Dados)
+
+HTML, CSS, JavaScript
 
 [Documentação](https://docs.google.com/document/d/1BHJ1PtrndcojcnKtepJ2ATaL_eETV61WYLOpMt_g7jI/edit?tab=t.0)
